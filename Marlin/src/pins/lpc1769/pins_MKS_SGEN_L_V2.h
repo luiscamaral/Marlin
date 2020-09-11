@@ -209,7 +209,7 @@
 #define HEATER_0_PIN                       P2_07
 #if HOTENDS == 1
   #ifndef FAN1_PIN
-    #define FAN1_PIN                       P2_06
+    #define FAN1_PIN                       P1_04
   #endif
 #else
   #ifndef HEATER_1_PIN
@@ -219,9 +219,9 @@
 #ifndef FAN_PIN
   #define FAN_PIN                          P2_04
 #endif
-#ifndef FAN2_PIN
-  #define FAN2_PIN                         P1_04
-#endif
+// #ifndef FAN2_PIN
+//   #define FAN2_PIN                         P2_04
+// #endif
 
 //
 // Misc. Functions
